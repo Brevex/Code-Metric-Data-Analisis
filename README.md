@@ -2,7 +2,8 @@
 
 <h2> &#128269; About the project </h2><br>
 
-<p>A machine learning model in Python that classifies the relationship between the efficiency of different engine models and other car characteristics. This project also has a machine learning model that tries to predict the values of cars and the relationship between engine models and horsepower.</p><br>
+<p>This data analysis aims to catalog and filter different algorithms into a complexity metric. An initial dataframe with the scores 
+was filtered to better understand how efficient each algorithm in the database can be.</p><br>
 
 <h2> &#128302; Technologies Used </h2><br>
 
