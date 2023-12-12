@@ -3,7 +3,8 @@
 <h2> &#128269; About the project </h2><br>
 
 <p>This data analysis aims to catalog and filter different algorithms into a complexity metric. An initial dataframe with the scores 
-was filtered to better understand how efficient each algorithm in the database can be.</p><br>
+was filtered to better understand how efficient each algorithm in the database can be. The final dataframe with the filtered data 
+classifies the algorithms into 3 labels: Risk by Cyclomatic Complexity, Fan-in and Fan-out Complexity and Maintainability Score.</p><br>
 
 <h2> &#128302; Technologies Used </h2><br>
 
