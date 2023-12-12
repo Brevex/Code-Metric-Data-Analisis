@@ -6,6 +6,18 @@
 was filtered to better understand how efficient each algorithm in the database can be. The final dataframe with the filtered data 
 classifies the algorithms into 3 labels: Risk by Cyclomatic Complexity, Fan-in and Fan-out Complexity and Maintainability Score.</p><br>
 
+<h2> &#128246; Classification Criteria </h2><br>
+
+<div align="center">
+	
+| Type of Complexity            | Equation                                                    | Evaluation Criteria                                         | 
+|:-----------------------------:|:-----------------------------------------------------------:|:-----------------------------------------------------------:|
+| Fan-in and Fan-out            | $C = wmc \cdot (Fin \cdot Fout)^2$                          | $0=(<= 100), 1=(101-1000), 2=(> 1000)$                      |
+| Maintainability Score         | $MS = loopQty + comparisonsQty + numbersQty + variablesQty$ | $0=(<= 65), 1=(66-85), 2=(> 85)$                            |
+| Risk by Cyclomatic Complexity | $wmc$                                                       | $0=(<= 10), 1=(11-20), 2=(21-50), 3=(> 50)$                 |
+
+</div>
+
 <h2> &#128302; Technologies Used </h2><br>
 
 <p align="center">
