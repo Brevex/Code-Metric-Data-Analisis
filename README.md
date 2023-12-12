@@ -8,13 +8,27 @@ classifies the algorithms into 3 labels: Risk by Cyclomatic Complexity, Fan-in a
 
 <h2> &#128246; Classification Criteria </h2><br>
 
-<div align="center">
+<div align="left">
 	
-| Type of Complexity            | Equation                                                    | Evaluation Criteria                                         | 
-|:-----------------------------:|:-----------------------------------------------------------:|:-----------------------------------------------------------:|
-| Fan-in and Fan-out            | $C = wmc \cdot (Fin \cdot Fout)^2$                          | $0=(<= 100), 1=(101-1000), 2=(> 1000)$                      |
-| Maintainability Score         | $MS = loopQty + comparisonsQty + numbersQty + variablesQty$ | $0=(<= 65), 1=(66-85), 2=(> 85)$                            |
-| Risk by Cyclomatic Complexity | $wmc$                                                       | $0=(<= 10), 1=(11-20), 2=(21-50), 3=(> 50)$                 |
+| Type of Complexity            | Equation                                                    |
+|:-----------------------------:|:-----------------------------------------------------------:|
+| Fan-in and Fan-out            | $C = wmc \cdot (Fin \cdot Fout)^2$                          |
+| Maintainability Score         | $MS = loopQty + comparisonsQty + numbersQty + variablesQty$ |
+| Risk by Cyclomatic Complexity | $wmc$                                                       |
+
+| Type of Complexity            | Evaluation Criteria                                         | 
+|:-----------------------------:|:-----------------------------------------------------------:|
+| Fan-in and Fan-out            | $0=(<= 100), 1=(101-1000), 2=(> 1000)$                      |
+| Maintainability Score         | $0=(<= 65), 1=(66-85), 2=(> 85)$                            |
+| Risk by Cyclomatic Complexity | $0=(<= 10), 1=(11-20), 2=(21-50), 3=(> 50)$                 |
+
+| Valor de Avaliação | Risk by Cyclomatic Complexit| Fan-in and Fan-out Complexity | Maintainability Score |
+|:------------------:|:---------------------------:|:-----------------------------:|:---------------------:|
+|0	             | Low                         | Good	                   | Good                  |
+|1	             | Moderate                    | Moderate	                   | Moderate              |
+|2	             | High                        | High	                   | Bad                   |
+|3	             | Very High	           | (N/A)	                   | (N/A)                 |
+
 
 </div>
 
