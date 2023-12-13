@@ -22,7 +22,7 @@ classifies the algorithms into 3 labels: Risk by Cyclomatic Complexity, Fan-in a
 | Maintainability Score         | $MS = loopQty + comparisonsQty + numbersQty + variablesQty$ |
 | Risk by Cyclomatic Complexity | $wmc$                                                       |
 
-| Type of Complexity            | Evaluation Criteria                                         | 
+| Type of Complexity            | Appraisal Criteria                                          | 
 |:-----------------------------:|:-----------------------------------------------------------:|
 | Fan-in and Fan-out            | $0=(<= 100), 1=(101-1000), 2=(> 1000)$                      |
 | Maintainability Score         | $0=(<= 65), 1=(66-85), 2=(> 85)$                            |
