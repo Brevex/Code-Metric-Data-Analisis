@@ -37,6 +37,8 @@ classifies the algorithms into 3 labels: Risk by Cyclomatic Complexity, Fan-in a
 
 <br><h2> &#128202; Analysis Result </h2><br>
 
-
+<div align="center">
+  <img src="https://github.com/Brevex/Code-Metric-Data-Analisis/blob/84451405bfd9952321e6ecb98d76beded072cad5/readme%20images/chart.png">
+</div>
 
 <br><h3 align = "center"> - By <a href = "https://www.linkedin.com/in/breno-barbosa-de-oliveira-810866275/" target = "_blank">Breno</a> - </h3>
