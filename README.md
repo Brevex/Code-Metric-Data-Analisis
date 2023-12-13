@@ -27,6 +27,7 @@ classifies the algorithms into 3 labels: Risk by Cyclomatic Complexity, Fan-in a
 | 2                  | High                          | High                          | Bad                   |
 | 3                  | Very High                     | (N/A)                         | (N/A)                 |
 
+<br>
 <h2> &#128302; Technologies Used </h2><br>
 
 <p align="center">
