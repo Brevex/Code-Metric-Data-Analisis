@@ -8,16 +8,11 @@ classifies the algorithms into 3 labels: Risk by Cyclomatic Complexity, Fan-in a
 
 <h2> &#128246; Classification Criteria </h2><br>
 
-<div align="center">
-<hr>
-	
 | Type of Complexity            | Equation                                                    |
 |:-----------------------------:|:-----------------------------------------------------------:|
 | Fan-in and Fan-out            | $C = wmc \cdot (Fin \cdot Fout)^2$                          |
 | Maintainability Score         | $MS = loopQty + comparisonsQty + numbersQty + variablesQty$ |
 | Risk by Cyclomatic Complexity | $wmc$                                                       |
-
-<hr>
 
 | Type of Complexity            | Evaluation Criteria                                         | 
 |:-----------------------------:|:-----------------------------------------------------------:|
@@ -25,17 +20,12 @@ classifies the algorithms into 3 labels: Risk by Cyclomatic Complexity, Fan-in a
 | Maintainability Score         | $0=(<= 65), 1=(66-85), 2=(> 85)$                            |
 | Risk by Cyclomatic Complexity | $0=(<= 10), 1=(11-20), 2=(21-50), 3=(> 50)$                 |
 
-<hr>
-
 | Evaluation value   | Risk by Cyclomatic Complexity | Fan-in and Fan-out Complexity | Maintainability Score |
 |:------------------:|:-----------------------------:|:-----------------------------:|:---------------------:|
 | 0                  | Low                           | Good                          | Good                  |
 | 1                  | Moderate                      | Moderate                      | Moderate              |
 | 2                  | High                          | High                          | Bad                   |
 | 3                  | Very High                     | (N/A)                         | (N/A)                 |
-
-<hr>
-</div><br>
 
 <h2> &#128302; Technologies Used </h2><br>
 
