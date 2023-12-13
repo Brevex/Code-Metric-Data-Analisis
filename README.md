@@ -6,7 +6,7 @@
 was filtered to better understand how efficient each algorithm in the database can be. The final dataframe with the filtered data 
 classifies the algorithms into 3 labels: Risk by Cyclomatic Complexity, Fan-in and Fan-out Complexity and Maintainability Score.</p><br>
 
-<h2> &#128246; Classification Criteria </h2><br>
+<h2> &#128200; Classification Criteria </h2><br>
 
 | Type of Complexity            | Equation                                                    |
 |:-----------------------------:|:-----------------------------------------------------------:|
