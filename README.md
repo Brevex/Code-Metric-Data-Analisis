@@ -6,6 +6,14 @@
 was filtered to better understand how efficient each algorithm in the database can be. The final dataframe with the filtered data 
 classifies the algorithms into 3 labels: Risk by Cyclomatic Complexity, Fan-in and Fan-out Complexity and Maintainability Score.</p><br>
 
+<h2> &#128302; Technologies Used </h2><br>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py" />
+  </a>
+</p>
+
 <h2> &#128200; Categorization Criteria </h2><br>
 
 | Type of Complexity            | Equation                                                    |
@@ -26,15 +34,6 @@ classifies the algorithms into 3 labels: Risk by Cyclomatic Complexity, Fan-in a
 | 1                  | Moderate                      | Moderate                      | Moderate              |
 | 2                  | High                          | High                          | Bad                   |
 | 3                  | Very High                     | (N/A)                         | (N/A)                 |
-
-<br>
-<h2> &#128302; Technologies Used </h2><br>
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py" />
-  </a>
-</p>
 
 <br><h2> &#128202; Analysis Result </h2><br>
 
